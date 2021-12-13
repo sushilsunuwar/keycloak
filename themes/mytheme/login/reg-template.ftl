@@ -107,7 +107,7 @@
         </#if>
       </header>
       <div id="kc-content">
-        <div id="kc-content-wrapper">
+        <div id="kc-reg-content-wrapper">
 
           <#-- App-initiated actions should not see warning messages about the need to complete the action -->
           <#-- during login.                                                                               -->

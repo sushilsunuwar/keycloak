@@ -88,7 +88,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .card-pf {
+  .card-pf, .card-pf-reg {
     background: transparent !important;
     /* background-size: contain; */
   }
@@ -121,6 +121,10 @@ body {
   .login_label {
     font-size: 28px !important;
   }
+
+  .card-pf-reg {
+    background: transparent !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -129,6 +133,8 @@ body {
     background: url("../img/full-fg.png") no-repeat center center fixed;
     background-size: contain;
   } */
+
+ 
 
   #kc-content {
     width: 250px !important;
@@ -406,6 +412,10 @@ div.kc-logo-text span {
 
 #kc-content-wrapper {
   margin-top: 40px;
+}
+
+#kc-reg-content-wrapper {
+  margin-top: 10px !important;
 }
 
 #kc-form-wrapper {
@@ -850,7 +860,7 @@ ul#kc-totp-supported-apps {
   /* padding: 0 20px; */
   /* max-width: 80%; */
   /* height: 80%; */
-  max-width: 1080px;
+  max-width: 1180px;
   height: 650px;
   border-top: 0px !important;
   border-color: none !important;
@@ -979,4 +989,8 @@ ul#kc-totp-supported-apps {
 
 .sm_cancel{
   /* background: #002538; */
+}
+
+.reg-btn {
+  margin-top: 10px !important;
 }
